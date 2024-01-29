@@ -1,14 +1,19 @@
-.DS_Store
-node_modules
+# Dependencies
+/node_modules
+/package-lock.json
+/yarn.lock
+
+# Compiled output
 /dist
-public/vendor/**
-/.history
-/public
-# local env files
+/build
+/public/vendor
+
+# Environment files
+.env
 .env.local
 .env.*.local
 
-# Log files
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -21,5 +26,17 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
-yarn.lock
 
+# Operating System specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Other files and directories
+.history
+/public
+/bundle
+release-*
+/index.html
+/release.txt
+/dist.zip
