@@ -1,0 +1,36 @@
+# Fireball Project Specific Files
+/Log/
+/library/
+/temp/
+/local/
+
+# Node.js Specific Files
+npm-debug.log
+node_modules/
+
+# Log Files and Databases
+*.log
+*.sql
+*.sqlite
+
+# Debugger Files
+*.sln
+*.csproj
+*.pidb
+*.unityproj
+*.suo
+
+# OS Generated Files
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+# IDE Specific Files
+.idea/          # WebStorm
+.vscode/        # Visual Studio Code
+*.iml
+*.externalNativeBuild
+
+# Hot Update and Build Files
+/hotUpdate
+build/
