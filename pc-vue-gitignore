@@ -1,0 +1,20 @@
+# nodejs
+/node_modules
+/package-lock.json
+
+# build
+/dist/
+/distAll/
+/dist/*/*
+/dist/src
+
+/bundle
+release-*
+/index.html
+/release.txt
+/.history
+/.idea/
+
+/dist.zip
+
+.DS_Store
