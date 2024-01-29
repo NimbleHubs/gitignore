@@ -1,0 +1,38 @@
+# Compiled Java class files
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+.mvn/
+
+# Gradle
+.gradle/
+**/build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.metadata
+bin/
+*.launch
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Other unnecessary files
+*.swp
+*~
